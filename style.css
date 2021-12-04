@@ -65,10 +65,13 @@ h1::before{
 
 h3{
     height: 100%;
+    width: 100%;
     background-color: rgba(0, 152, 253, 0.493);
     line-height: 40px;
     padding: 0 50px;
-    color:rgb(220, 248, 255)
+    color:rgb(220, 248, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 label{
     display: inline-block;
@@ -214,6 +217,7 @@ position: relative;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
   }
   
